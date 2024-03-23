@@ -1,12 +1,11 @@
 Package: lineplot
-Title: What the Package Does (One Line, Title Case)
+Title: Generate a Line Plot for all Variables with Given Data
 Version: 0.0.0.9000
 Authors@R: 
-    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"),
-           comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
-License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
-    license
+    person("Shawn", "Li", , "shawnli0612@gmail.com", role = c("aut", "cre"))
+Description: The function counts number of data points of each variable in
+    a specific index level, and plot the counts using a line.
+License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.1
@@ -14,3 +13,6 @@ Imports:
     dplyr,
     ggplot2,
     rlang
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
